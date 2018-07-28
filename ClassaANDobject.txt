@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+class FerdisClass {
+	public:
+		void coolSaying() {
+			cout << "No pain No Gain!" << endl;
+		}
+};
+
+int main()
+{
+	FerdisClass ferdisObject;
+	ferdisObject.coolSaying();
+	cin.get();
+	return 0;
+}
