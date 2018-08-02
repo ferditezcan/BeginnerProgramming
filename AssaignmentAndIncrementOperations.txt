@@ -1,0 +1,25 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+using namespace std;
+
+int main()
+
+{	
+	int x = 10;
+
+	x += 10; //10 ekliyor	
+	x -= 5; // 5 çikariyor
+	x *= 2; // 2 ile çarpiyor
+	x /= 3; // 3 e bölüyor
+	x %= 3; // 10 nun 3 e bölümünden kalani gösteriyor
+
+	cout << x << endl;
+	cout << x++ << endl; // arttirrma islemi bir sonraki satirda gerçeklesir
+	cout << x << endl;
+	cout << ++x << endl; // arttirma islemi bu satirda gerçeklesir
+
+
+	_getch();
+	return 0;
+}

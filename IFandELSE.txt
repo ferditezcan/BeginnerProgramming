@@ -1,0 +1,28 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main() 
+{
+	int age = 165;
+
+
+	if (age>60) {
+		if (age>100) {
+			cout << "You should be dead!!" << endl;
+		}
+
+		else {
+			cout << "You re old!!" << endl;
+		}
+	}
+
+	else {
+		cout << "You re young get a job" << endl;
+	}
+
+
+	cin.get();
+	return 0;
+}

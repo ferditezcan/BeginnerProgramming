@@ -1,0 +1,17 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main() 
+{
+	int x = 10;
+	int y = 24;
+
+	if (x<=y) {
+		cout << "Thats true!!" << endl;
+	}
+
+	cin.get();
+	return 0;
+}

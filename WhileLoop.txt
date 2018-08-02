@@ -1,0 +1,19 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main() 
+{
+	int meal = 1;
+
+
+	while(meal <= 20) {
+		cout << "meal is " << meal << endl;
+		meal++; // meal = meal + 1 or 2,3,4,5;
+	}
+
+
+	cin.get();
+	return 0;
+}
