@@ -1,0 +1,22 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+int volume(int l, int w, int h);
+
+int main()
+
+{	//  Default Arguments / Parameters
+	cout << volume(4, 5, 6);
+	_getch();
+	return 0;
+}
+
+int volume(int l, int w, int h) {
+	return l * w*h;
+}

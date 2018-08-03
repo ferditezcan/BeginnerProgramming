@@ -1,0 +1,31 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+
+using namespace std;
+
+int main()
+
+{	//  
+	
+	int age = 2;
+
+	switch (age) {
+		case 16:
+			cout << "hey you can drive now!" << endl;
+			break;
+		case 18:
+			cout << "You can go to bar" << endl;
+			break;
+		case 21:
+			cout << "buy a pistol" << endl;
+			break;
+		default:
+			cout << "Sorry you get nothing" << endl;
+	}
+
+
+	_getch();
+	return 0;
+}

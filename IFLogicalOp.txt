@@ -1,0 +1,20 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+
+using namespace std;
+
+int main()
+
+{	//  
+
+	int age = 2;
+	int money = 4;
+
+	if (age > 1 || money < 5) {   // yada anlaminda , && kullanarak 2 secenekte kullanabiliriz
+		cout << "you are allowed in" << endl;
+	}
+	_getch();
+	return 0;
+}

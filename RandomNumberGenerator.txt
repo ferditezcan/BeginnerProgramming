@@ -1,0 +1,24 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+int main()
+
+{	//  Random NUmber generator
+	srand(time(0));  // this makes our random generator as possible as random
+					  //changes the algortihm with time 
+	for (int x = 1; x < 25; x++) {
+		cout << (rand()%6)+1<<endl;
+	}
+	
+	
+
+	
+	_getch();
+	return 0;
+}

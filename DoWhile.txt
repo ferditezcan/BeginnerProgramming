@@ -1,0 +1,20 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+
+using namespace std;
+
+int main()
+
+{	// using for atleast using 1 time 
+	int x = 1; // try with 99
+
+	do {
+		cout << x << endl;
+		x++;
+	} while (x < 10);
+
+	_getch();
+	return 0;
+}
