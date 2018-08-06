@@ -1,0 +1,28 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+
+int main()
+
+{	//  ArrayMatrix
+	int ferdi[2][3] = { {2,3,4} ,{8,9,10} };
+	
+	for (int row = 0; row < 2; row++) {
+		for (int column = 0; column < 3; column++) {
+			cout << ferdi[row][column] << " ";
+		}
+		cout << endl;
+	}
+
+
+	
+	_getch();
+	return 0;
+}
+

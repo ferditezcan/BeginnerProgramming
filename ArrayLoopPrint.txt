@@ -1,0 +1,27 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+int main()
+
+{	//  ArrayLoopPrint
+
+	int ferdi[9];
+
+	cout << "Element - Value" << endl;
+
+	for (int x=0;x<9;x++) {
+		ferdi[x] = 99;
+
+		cout << x << "---------" << ferdi[x] << endl;
+
+	}
+
+	_getch();
+	return 0;
+}

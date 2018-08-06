@@ -1,0 +1,22 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+int tuna = 45; // global variable
+
+int main()
+
+{	//  UnaryScopeResolutionOperator = ::
+	double tuna = 20.5; //local variable
+
+	cout << ::tuna << endl; // :: kullanirsan function disindaki degeri kullanir
+
+
+	_getch();
+	return 0;
+}

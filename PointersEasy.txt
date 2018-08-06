@@ -1,0 +1,29 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+
+int main()
+
+{	//  Pointers
+
+	int fish = 5;
+
+	cout << &fish << endl;
+
+	int *fishPointer;
+	fishPointer = &fish;
+
+	cout << fishPointer << endl;
+
+
+	
+	_getch();
+	return 0;
+}
+

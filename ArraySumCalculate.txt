@@ -1,0 +1,25 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+int main()
+
+{	//  ArraySumCalculate
+
+	int ferdi[5] = { 20,54,76,543,123 };
+	int sum = 0;
+
+	for (int x=0;x<5;x++) {
+		sum += ferdi[x];
+	}
+
+	cout << sum << endl;
+
+	_getch();
+	return 0;
+}

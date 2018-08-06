@@ -1,0 +1,31 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+void printArray(int array[], int sizeOfarray);
+
+int main()
+
+{	//  ArrayFunction
+	int ferdi[3] = { 23,12,233 };
+	int elif[5] = { 34,213,45,65,76 };
+
+	printArray(elif, 5);
+	
+	_getch();
+	return 0;
+}
+
+void printArray(int array[], int sizeOfarray) {
+
+	for (int x = 0; x < sizeOfarray; x++) {
+		cout << array[x] << endl;
+
+	}
+
+}
