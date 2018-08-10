@@ -1,0 +1,29 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+int main()
+
+{	//  Pointers&Math
+
+	int ferdi[5];
+	int *bp0 = &ferdi[0];
+	int *bp1 = &ferdi[1];
+	int *bp2 = &ferdi[2];
+	cout << "bp0 is at " << bp0 << endl;
+	cout << "bp1 is at " << bp1 << endl;
+	cout << "bp2 is at " << bp2 << endl;
+
+	bp0 += 2;
+
+	cout << "bp0 is now at " << bp0 << endl;
+
+	_getch();
+	return 0;
+}
+

@@ -1,0 +1,36 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+void passByValue(int x);
+void passByReference(int *x);
+
+int main()
+
+{	//  PointersPassByReference
+
+	int ercan = 15;
+	int kezban = 15;
+
+	passByValue(ercan);
+	passByReference(&kezban);
+
+	cout << "ercan is now " << ercan << endl;
+	cout << "kezban is now " << kezban << endl;
+
+	_getch();
+	return 0;
+}
+
+void passByValue(int x) {
+	x = 99;
+}
+
+void passByReference(int *x) {
+	*x = 66;
+}

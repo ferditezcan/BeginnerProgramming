@@ -1,0 +1,33 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cmath>
+#include <cstdlib>  // rand library
+#include <ctime> // clock in our pc
+
+using namespace std;
+
+
+
+int main()
+
+{	//  sizeof
+
+	double ferdi[10];  // each has 8 byte 
+	
+	cout << sizeof(ferdi) << endl; // then its 8*10
+
+	cout << sizeof(ferdi) / sizeof(ferdi[0]) << endl; // 80 / 8 = 
+
+
+	_getch();
+	return 0;
+}
+
+void passByValue(int x) {
+	x = 99;
+}
+
+void passByReference(int *x) {
+	*x = 66;
+}
